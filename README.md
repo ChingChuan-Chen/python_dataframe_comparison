@@ -22,7 +22,7 @@ Then, he would like to append ten thousands of columns which the column name is 
 | polars | 876 ms ± 39.5 ms |
 | pandas -a | > 2 minutes  |
 | pandas -b | > 2 minutes  |
-| pandas -a | > 2 minutes  |
+| pandas -c | > 2 minutes  |
 | duckdb    | 23.9 s       |
 | numpy - a | 4min 23s     |
 | numpy - b | > 6 minutes  |
