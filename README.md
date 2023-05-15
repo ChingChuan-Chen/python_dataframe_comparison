@@ -20,11 +20,11 @@ Then, he would like to append ten thousands of columns which the column name is 
 
 | Method | Time |
 | :----- | ----: |
-| polars | 876 ms ± 39.5 ms |
+| polars    | 1.21 s ± 59.3 ms |
 | pandas -a | > 2 minutes  |
 | pandas -b | > 2 minutes  |
 | pandas -c | > 2 minutes  |
-| duckdb    | 23.9 s       |
+| duckdb    | 24.4 s ± 177 ms  |
 | numpy - a | 4min 23s     |
 | numpy - b | > 6 minutes  |
 | Cython    | 1.73 s ± 14.7 ms |
