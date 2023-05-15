@@ -11,14 +11,22 @@ Then, he would like to append ten thousands of columns which the column name is 
 1. `polars`
 2. `pandas`
 3. `duckdb`
-4. `pandas` + `numpy`
-5. `Cython`
+4. `Cython`
 
-4 & 5 are the options to output `numpy` arrays.
+4 is only output `numpy` array.
 
 ### Results
 
-
+| Method | Time |
+| :----- | ----: |
+| polars | 876 ms ± 39.5 ms |
+| pandas -a | > 2 minutes  |
+| pandas -b | > 2 minutes  |
+| pandas -a | > 2 minutes  |
+| duckdb    | 23.9 s       |
+| numpy - a | 4min 23s     |
+| numpy - b | > 6 minutes  |
+| Cython    | 1.73 s ± 14.7 ms |
 
 ### Notes
 
