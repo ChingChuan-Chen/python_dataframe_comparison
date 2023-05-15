@@ -11,9 +11,10 @@ Then, he would like to append ten thousands of columns which the column name is 
 1. `polars`
 2. `pandas`
 3. `duckdb`
-4. `Cython`
+4. `numpy`
+5. `Cython`
 
-4 is only output `numpy` array.
+4 and 5 only output `numpy` array.
 
 ### Results
 
